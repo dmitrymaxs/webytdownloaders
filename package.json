@@ -1,0 +1,33 @@
+{
+  "name": "dmitrycema-github-io",
+  "version": "1.0.0",
+  "description": "Личный веб-сайт Dmitry Cema на GitHub Pages",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -c-1",
+    "dev": "npx http-server -p 8000 -c-1 -o",
+    "build": "echo 'Статический сайт - сборка не требуется'",
+    "test": "echo 'Тесты будут добавлены в будущем'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrycema/dmitrycema.github.io.git"
+  },
+  "keywords": [
+    "website",
+    "portfolio",
+    "github-pages",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Dmitry Cema",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmitrycema/dmitrycema.github.io/issues"
+  },
+  "homepage": "https://dmitrycema.github.io",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
